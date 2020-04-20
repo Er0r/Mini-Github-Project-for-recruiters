@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-color: #f4f4f4;
+    color: #555;
+
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.big-container {
+    background-color: #363660;
+  color: #fff;
+
+  border-right: 5px gray solid;
+  border-left: 5px gray solid;
+  border-top: 5px gray solid;
+  border-bottom: 5px gray solid;
+
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+  border: 5px gray solid;
+
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.big-container h1 {
+    text-align: center;
+    font-family:Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    margin: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+}
+.container-1 {
+    text-align: center;
+    padding: 20px;
+    background-attachment: fixed;
+    
+}
+
+
+.container-1 label {
+    display: block;
+    font-size: 30px;
+}
+
+.container-1 input{
+    margin-top: 10px;
+    padding-top:4px;
+    width: 25%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(24, 24, 24);
+    box-shadow: 10px 10px 10px 10px rgba(136, 136, 136, 0.3);
+    height: 40px;
+  }
+
+.container-1 button{
+    width: 25%;
+    height: 30px;
+    top: 50%;
+    border-radius: 12px;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+}
+
+.container-1 button:hover {
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container-1 img {
+    width: 200px;
+    height: 100px;
+
+}
+
+.container-2 {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.personal {
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 22px;
+}
+
+.public {
+    float: right;
+    width: 70%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container-3 {
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container-3 ul {
+    background: #3399ff;
+    padding: 20px;
+}
+
+.container-3 li{
+    background: #cce5ff;
+    margin: 5px;
+    color: #581845;
+    padding-bottom: 5%;
+}

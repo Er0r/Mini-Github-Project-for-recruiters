@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="big-container">
+    
+        <h1> GITHUB MINI PROJECT </h1>
+        
+            <div class="container-1">
+                <img  src="github-octocat.png" alt="">
+                <label> Github Login Name: </label>
+                <input type="text" name="name" placeholder="Enter your Github User Name: ">
+                <button class="add__btn"> Submit </button>
+                
+            </div>
+
+        <div class="container-2">
+            <div class="personal">
+                <h2 class="nametxt"> Github Name </h2>
+                <hr>
+                <h2 class="biotxt">Bio</h2>
+            </div>
+
+            <div class="public">
+                <h2 class="pubrepos">Public Repository</h2>
+                <hr>
+                <h2 class="hireable"> Hireable </h2>
+            </div>
+
+        </div>
+
+        
+
+        <template id="single-post">
+            <li class="post-item">
+                <h2></h2>    
+                <p>No Description</p>
+            </li>
+        </template>
+
+        <div class="container-3">
+            <div class="repository">
+                <h2 class="repositories"> Repositories: </h2>
+                <ul class="rep-list">
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
